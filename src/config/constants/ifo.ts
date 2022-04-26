@@ -7,19 +7,19 @@ const cakeBnbLpToken = new Token(ChainId.MAINNET, farms[1].lpAddresses[ChainId.M
 
 const ifos: Ifo[] = [
   {
-    id: 'porto',
-    address: '0xFDFf29dD0b4DD49Bf5E991A30b8593eaA34B4580',
+    id: 'MV',
+    address: '0x078053F10ACd423E9357d80C5828dDf69D2bCD36',
     isActive: true,
-    name: 'FC Porto Fan Token (PORTO)',
+    name: 'MULTIVERSE (MV)',
     poolBasic: {
-      saleAmount: '250,000 PORTO',
-      raiseAmount: '$500,000',
+      saleAmount: '250,000 MV',
+      raiseAmount: '$50,000',
       cakeToBurn: '$0',
       distributionRatio: 0.5,
     },
     poolUnlimited: {
-      saleAmount: '250,000 PORTO',
-      raiseAmount: '$500,000',
+      saleAmount: '250,000 MV',
+      raiseAmount: '$50,000',
       cakeToBurn: '$0',
       distributionRatio: 0.5,
     },
